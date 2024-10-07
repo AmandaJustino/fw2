@@ -1,8 +1,7 @@
 import Footer from "./component/footer";
 import Navbar from "./component/navbar";
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import {Container, Row, Col} from 'react-bootstrap';
+
 export default function Index() {
   return <>
     <Navbar />
@@ -12,9 +11,9 @@ export default function Index() {
         <Col>2 of 2</Col>
       </Row>
       <Row>
-        <Col>1 of 3</Col>
-        <Col>2 of 3</Col>
-        <Col>3 of 3</Col>
+        <Col className="bg-primary">1 of 3</Col>
+        <Col className="bg-danger-subtle">2 of 3</Col>
+        <Col className="bg-info">3 of 3</Col>
       </Row>
     </Container>
     <Footer />
