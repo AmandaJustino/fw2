@@ -7,8 +7,8 @@ export default function Index() {
     <Navbar />
     <Container>
       <Row>
-        <Col>1 of 2</Col>
-        <Col>2 of 2</Col>
+        <Col className="bg-info">1 of 2</Col>
+        <Col className="bg-primary-subtle">2 of 2</Col>
       </Row>
       <Row>
         <Col className="bg-primary">1 of 3</Col>
